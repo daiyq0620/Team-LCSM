@@ -1,5 +1,10 @@
 # Team-LCSM: Access to Care
 
+## Presentation Slides
+
+You can view the full presentation deck here:
+[**Project Presentation - Healthcare Access & Risk Subgroups**](https://www.canva.com/design/DAHAstCnJu0/uLwmVvZmQRpveeRtjG8mYA/edit?ui=eyJBIjp7fX0)
+
 ## Overview
 
 This project analyzes the **National Health Interview Survey (NHIS) – Adult Summary Health Statistics** dataset to identify population subgroups most vulnerable to barriers in healthcare access.
