@@ -79,15 +79,16 @@ We apply **two complementary modeling approaches**—a vulnerability-metric–ba
 - Selected **k = 5** using the elbow method
 
 ### 5. Identifying the Most Vulnerable Cluster
-- Ranked clusters for each vulnerability dimension (higher = worse)
+- Ranked each feature among clusters to quantify vulnerable level
 - Summed ranks across dimensions
 - Identified the cluster with the **lowest total rank score** as the most vulnerable
 
 ### 6. Subgroup Risk Scoring
-- Computed a composite **risk score** for each subgroup as the mean of vulnerability metrics
-- Within the most vulnerable cluster:
+- Computed the mean of vulnerability metrics
+- Within the most vulnerable cluster, for each `GROUP × SUBGROUP`:
+  - Averaged all features' value as a composite risk score
   - Ranked each `GROUP × SUBGROUP` pair by risk score
-  - Identified the highest-risk subgroup per category
+  - Identified the highest-risk subgroup
 
 
 ---
